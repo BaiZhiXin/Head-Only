@@ -6,8 +6,14 @@
 
 ## 大纲
 
-1. [EncodingConverter](###EncodingConverter)
-2. [DragArea](###DragArea)
+- [Head-Only可复用头文件类](#head-only可复用头文件类)
+  - [介绍](#介绍)
+  - [大纲](#大纲)
+  - [类介绍](#类介绍)
+    - [EncodingConverter](#encodingconverter)
+    - [DragArea](#dragarea)
+    - [TimeCal](#timecal)
+    - [Timer](#timer)
 
 
 
@@ -34,3 +40,9 @@ DragArea是一个自定义的控件，用于在GUI中显示文件拖拽和文件
 ——LogOutputMode：显示日志信息，并在追加日志时自动滚动到底部。
 
 用户可通过 setDisplayMode() 在两种模式之间切换。
+
+### TimeCal
+使用CPP的高速定时器来实现计算代码运算耗时
+
+### Timer
+利用sleep_until函数来实现精准定时，比直接使用sleep_for有更高的精确度
