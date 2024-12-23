@@ -14,6 +14,7 @@
     - [DragArea](#dragarea)
     - [TimeCal](#timecal)
     - [Timer](#timer)
+    - [AnimatedPushButton](AnimatedPushButton)
 
 
 
@@ -46,3 +47,11 @@ DragArea是一个自定义的控件，用于在GUI中显示文件拖拽和文件
 
 ### Timer
 利用sleep_until函数来实现精准定时，比直接使用sleep_for有更高的精确度
+
+### AnimatedPushButton
+
+基于Qt的PushButton类实现的动画按钮类，实现了鼠标悬停动画、点击动画及鼠标离开动画。
+
+可以通过调用函数轻松设置动画属性及按钮图片。
+
+注：需要设置按钮图片才可以正常显示，该类就是为了按钮显示为图片而设计。
