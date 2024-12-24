@@ -14,7 +14,8 @@
     - [DragArea](#dragarea)
     - [TimeCal](#timecal)
     - [Timer](#timer)
-    - [AnimatedPushButton](AnimatedPushButton)
+    - [AnimatedPushButton](#animatedpushbutton)
+    - [YAMLConfig](#yamlconfig)
 
 
 
@@ -55,3 +56,6 @@ DragArea是一个自定义的控件，用于在GUI中显示文件拖拽和文件
 可以通过调用函数轻松设置动画属性及按钮图片。
 
 注：需要设置按钮图片才可以正常显示，该类就是为了按钮显示为图片而设计。
+
+### YAMLConfig
+该类使用yaml-cpp库封装。由于yaml-cpp库已经足够完善，因此该类作用并不大，只是为了提供一个项目统一接口
