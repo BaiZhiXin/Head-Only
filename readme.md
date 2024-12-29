@@ -16,6 +16,7 @@
     - [Timer](#timer)
     - [AnimatedPushButton](#animatedpushbutton)
     - [YAMLConfig](#yamlconfig)
+    - [Sign_Verify](#Sign_Verify)
 
 
 
@@ -57,5 +58,9 @@ DragArea是一个自定义的控件，用于在GUI中显示文件拖拽和文件
 
 注：需要设置按钮图片才可以正常显示，该类就是为了按钮显示为图片而设计。
 
-### YAMLConfig
+### YAMLConfig(废弃)
 该类使用yaml-cpp库封装。由于yaml-cpp库已经足够完善，因此该类作用并不大，只是为了提供一个项目统一接口
+
+### Sign_Verify
+
+使用openssl库的Crypto模块封装的哈希值生成、签名与验证库
